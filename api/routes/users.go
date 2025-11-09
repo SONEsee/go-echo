@@ -1,8 +1,8 @@
 package routes
 
 import (
-	"github.com/Binh-2060/go-echo-template/api/controllers"
-	jwtpkg "github.com/Binh-2060/go-echo-template/pkg/jwt-pkg"
+	"github.com/SONEsee/go-echo/api/controllers"
+	jwtpkg "github.com/SONEsee/go-echo/pkg/jwt-pkg"
 	"github.com/labstack/echo/v4"
 )
 

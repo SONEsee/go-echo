@@ -3,9 +3,9 @@ package dbinserts
 import (
 	"context"
 
-	"github.com/Binh-2060/go-echo-template/api/schema/requestbody"
-	"github.com/Binh-2060/go-echo-template/config/db"
-	dbpkg "github.com/Binh-2060/go-echo-template/pkg/db-pkg"
+	"github.com/SONEsee/go-echo/api/schema/requestbody"
+	"github.com/SONEsee/go-echo/config/db"
+	dbpkg "github.com/SONEsee/go-echo/pkg/db-pkg"
 )
 
 func InsertNewUserTx(ctx context.Context, tx dbpkg.DBTX, req requestbody.UserRequestBody) error {

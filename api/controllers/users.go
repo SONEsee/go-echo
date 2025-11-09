@@ -3,11 +3,11 @@ package controllers
 import (
 	"net/http"
 
-	"github.com/Binh-2060/go-echo-template/api/presenters"
-	"github.com/Binh-2060/go-echo-template/api/schema/requestbody"
-	"github.com/Binh-2060/go-echo-template/api/services"
-	"github.com/Binh-2060/go-echo-template/api/validators"
-	jwtpkg "github.com/Binh-2060/go-echo-template/pkg/jwt-pkg"
+	"github.com/SONEsee/go-echo/api/presenters"
+	"github.com/SONEsee/go-echo/api/schema/requestbody"
+	"github.com/SONEsee/go-echo/api/services"
+	"github.com/SONEsee/go-echo/api/validators"
+	jwtpkg "github.com/SONEsee/go-echo/pkg/jwt-pkg"
 	"github.com/golang-jwt/jwt/v5"
 	"github.com/labstack/echo/v4"
 )

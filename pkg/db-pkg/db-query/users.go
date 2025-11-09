@@ -3,9 +3,9 @@ package dbquery
 import (
 	"context"
 
-	"github.com/Binh-2060/go-echo-template/config/db"
-	dbpkg "github.com/Binh-2060/go-echo-template/pkg/db-pkg"
-	dbschema "github.com/Binh-2060/go-echo-template/pkg/db-pkg/db-schema"
+	"github.com/SONEsee/go-echo/config/db"
+	dbpkg "github.com/SONEsee/go-echo/pkg/db-pkg"
+	dbschema "github.com/SONEsee/go-echo/pkg/db-pkg/db-schema"
 )
 
 func GetUserDataDBQuery(ctx context.Context) ([]dbschema.GetUserDataDBSchema, error) {

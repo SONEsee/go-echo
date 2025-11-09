@@ -1,5 +1,5 @@
-module github.com/Binh-2060/go-echo-template
-
+module github.com/SONEsee/go-echo
+// go mod edit -module github.com/SONEsee/go-echo
 go 1.23.0
 
 require (
