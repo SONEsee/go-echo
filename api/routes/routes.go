@@ -3,6 +3,13 @@ package routes
 import "github.com/labstack/echo/v4"
 
 func SetRoutes(echo *echo.Group) {
+
 	userRoutes := echo.Group("/users")
 	SetUserRoutes(userRoutes)
+
+	mainMenuRoutes := echo.Group("/main")
+	SetRoutesMainMenu(mainMenuRoutes)
+
+	subMenuRoutes := echo.Group("/sub")
+	SetRoutesSubmenu(subMenuRoutes)
 }

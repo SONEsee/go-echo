@@ -6,5 +6,5 @@ type SubMenuSchema struct {
 	IconSubMenu string `db:"icon_submenu" json:"icon_submenu"`
 	URLSubMenu  string `db:"url_submenu" json:"url_submenu"`
 	Action      string `db:"action" json:"action"`
-	MainMenuID  int    ` json:"main_menu_id"`
+	MainMenuID  int    `db:"main_menu_id" json:"main_menu_id"`
 }
